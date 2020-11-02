@@ -1,0 +1,180 @@
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+body {
+  background: #eeeeee;
+}
+header {
+  padding: 0.5rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+section {
+  height: 100vh;
+}
+section {
+  background: url(/img/bg.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 60vh;
+}
+main p {
+  color: #eeeeee;
+}
+main hr {
+  border-color: #eeeeee;
+}
+
+hr {
+  border-top: 3px solid #1a1a1a;
+  width: 35vh;
+  margin-left: 0;
+}
+
+.btn {
+  width: 20vh !important;
+}
+
+#quality {
+  background: url(/img/pattern.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #eeeeee;
+}
+
+#quality,
+#servizi,
+#salone,
+#gallery {
+  padding: 50px 0;
+}
+
+#salone {
+  background: #1a1a1a;
+}
+#salone hr,
+#gallery hr {
+  border-color: #eeeeee;
+}
+
+i {
+  color: #eeeeee;
+  font-size: 5vh;
+}
+
+h1 {
+  color: #eeeeee;
+}
+h2 {
+  color: #eeeeee;
+}
+
+.service_container {
+  padding: 1rem 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  margin: 1.5rem 0;
+}
+.quality_container {
+  border-radius: 0.25rem;
+  margin: 1rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quality_container p {
+  font-weight: 500;
+}
+.nails {
+  background: url(img/nails.jpg);
+  background-size: cover;
+}
+.base {
+  background: url(img/estetica-base.jpg);
+  background-size: cover;
+}
+.avanzata {
+  background: url(img/estetica-avanzata.jpg);
+  background-size: cover;
+}
+h3 {
+  color: #eeeeee;
+  font-size: 5vh;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width: 80%;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide:nth-child(2n) {
+  width: 60%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 40%;
+}
+
+.pattern-diagonal-stripes-md {
+  height: 70px;
+  width: 100%;
+}
+
+#servizi {
+  background: url(/img/bg-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#salone {
+  background: url(/img/bg-salon.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#gallery {
+  background: url(/img/bg-gallery.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#salone p {
+  color: #eeeeee;
+}
+#gallery p,
+#gallery h2 {
+  color: #eeeeee;
+}
