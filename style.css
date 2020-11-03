@@ -167,6 +167,10 @@ h3 {
   width: 100%;
 }
 
+button a:hover {
+  color: inherit;
+}
+
 #servizi {
   background: url(/img/bg-2.jpg);
   background-size: cover;
