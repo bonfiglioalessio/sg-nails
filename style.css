@@ -64,6 +64,7 @@ hr {
 #quality,
 #servizi,
 #salone,
+#team,
 #gallery,
 #prima-dopo,
 #contatti {
@@ -74,7 +75,8 @@ hr {
   background: #1a1a1a;
 }
 #salone hr,
-#gallery hr {
+#gallery hr,
+#team hr {
   border-color: #eeeeee;
 }
 
@@ -172,12 +174,17 @@ button a:hover {
 }
 
 #servizi {
-  background: url(/img/bg-2.jpg);
+  background: url(/img/bg-salon.jpg);
   background-size: cover;
   background-position: center;
 }
 #salone {
-  background: url(/img/bg-salon.jpg);
+  background: url(/img/servizi.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#team {
+  background: #979799;
   background-size: cover;
   background-position: center;
 }
@@ -187,16 +194,17 @@ button a:hover {
   background-position: center;
 }
 #prima-dopo {
-  background: url(/img/bg-salon.jpg);
-  background-size: cover;
-  background-position: center;
-}
-#contatti {
   background: url(/img/bg-2.jpg);
   background-size: cover;
   background-position: center;
 }
-#salone p {
+#contatti {
+  background: url(/img/maps.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#salone p,
+#team p {
   color: #eeeeee;
 }
 #gallery p,
@@ -225,7 +233,7 @@ button a:hover {
 }
 
 #info {
-  background: #1a1a1a;
+  background: #979799;
 }
 p#social {
   color: #eeeeee;
